@@ -1,0 +1,137 @@
+<?xml version="1.0" ?>
+<mujoco>
+	<asset>
+		<mesh name="bowl000" file="bowl_decomposed/bowl000.obj"/>
+		<mesh name="bowl001" file="bowl_decomposed/bowl001.obj"/>
+		<mesh name="bowl002" file="bowl_decomposed/bowl002.obj"/>
+		<mesh name="bowl003" file="bowl_decomposed/bowl003.obj"/>
+		<mesh name="bowl004" file="bowl_decomposed/bowl004.obj"/>
+		<mesh name="bowl005" file="bowl_decomposed/bowl005.obj"/>
+		<mesh name="bowl006" file="bowl_decomposed/bowl006.obj"/>
+		<mesh name="bowl007" file="bowl_decomposed/bowl007.obj"/>
+		<mesh name="bowl008" file="bowl_decomposed/bowl008.obj"/>
+		<mesh name="bowl009" file="bowl_decomposed/bowl009.obj"/>
+		<mesh name="bowl010" file="bowl_decomposed/bowl010.obj"/>
+		<mesh name="bowl011" file="bowl_decomposed/bowl011.obj"/>
+		<mesh name="bowl012" file="bowl_decomposed/bowl012.obj"/>
+		<mesh name="bowl013" file="bowl_decomposed/bowl013.obj"/>
+		<mesh name="bowl014" file="bowl_decomposed/bowl014.obj"/>
+		<mesh name="bowl015" file="bowl_decomposed/bowl015.obj"/>
+		<mesh name="bowl016" file="bowl_decomposed/bowl016.obj"/>
+		<mesh name="bowl017" file="bowl_decomposed/bowl017.obj"/>
+		<mesh name="bowl018" file="bowl_decomposed/bowl018.obj"/>
+		<mesh name="bowl019" file="bowl_decomposed/bowl019.obj"/>
+		<mesh name="bowl020" file="bowl_decomposed/bowl020.obj"/>
+		<mesh name="bowl021" file="bowl_decomposed/bowl021.obj"/>
+		<mesh name="bowl022" file="bowl_decomposed/bowl022.obj"/>
+		<mesh name="bowl023" file="bowl_decomposed/bowl023.obj"/>
+		<mesh name="bowl024" file="bowl_decomposed/bowl024.obj"/>
+		<mesh name="bowl025" file="bowl_decomposed/bowl025.obj"/>
+		<mesh name="bowl026" file="bowl_decomposed/bowl026.obj"/>
+		<mesh name="bowl027" file="bowl_decomposed/bowl027.obj"/>
+		<mesh name="bowl028" file="bowl_decomposed/bowl028.obj"/>
+		<mesh name="bowl029" file="bowl_decomposed/bowl029.obj"/>
+		<mesh name="bowl030" file="bowl_decomposed/bowl030.obj"/>
+		<mesh name="bowl031" file="bowl_decomposed/bowl031.obj"/>
+		<mesh name="bowl032" file="bowl_decomposed/bowl032.obj"/>
+		<mesh name="bowl033" file="bowl_decomposed/bowl033.obj"/>
+		<mesh name="bowl034" file="bowl_decomposed/bowl034.obj"/>
+		<mesh name="bowl035" file="bowl_decomposed/bowl035.obj"/>
+		<mesh name="bowl036" file="bowl_decomposed/bowl036.obj"/>
+		<mesh name="bowl037" file="bowl_decomposed/bowl037.obj"/>
+		<mesh name="bowl038" file="bowl_decomposed/bowl038.obj"/>
+		<mesh name="bowl039" file="bowl_decomposed/bowl039.obj"/>
+		<mesh name="bowl040" file="bowl_decomposed/bowl040.obj"/>
+		<mesh name="bowl041" file="bowl_decomposed/bowl041.obj"/>
+		<mesh name="bowl042" file="bowl_decomposed/bowl042.obj"/>
+		<mesh name="bowl043" file="bowl_decomposed/bowl043.obj"/>
+		<mesh name="bowl044" file="bowl_decomposed/bowl044.obj"/>
+		<mesh name="bowl045" file="bowl_decomposed/bowl045.obj"/>
+		<mesh name="bowl046" file="bowl_decomposed/bowl046.obj"/>
+		<mesh name="bowl047" file="bowl_decomposed/bowl047.obj"/>
+		<mesh name="bowl048" file="bowl_decomposed/bowl048.obj"/>
+		<mesh name="bowl049" file="bowl_decomposed/bowl049.obj"/>
+		<mesh name="bowl050" file="bowl_decomposed/bowl050.obj"/>
+		<mesh name="bowl051" file="bowl_decomposed/bowl051.obj"/>
+		<mesh name="bowl052" file="bowl_decomposed/bowl052.obj"/>
+		<mesh name="bowl053" file="bowl_decomposed/bowl053.obj"/>
+		<mesh name="bowl054" file="bowl_decomposed/bowl054.obj"/>
+		<mesh name="bowl055" file="bowl_decomposed/bowl055.obj"/>
+		<mesh name="bowl056" file="bowl_decomposed/bowl056.obj"/>
+		<mesh name="bowl057" file="bowl_decomposed/bowl057.obj"/>
+		<mesh name="bowl058" file="bowl_decomposed/bowl058.obj"/>
+		<mesh name="bowl059" file="bowl_decomposed/bowl059.obj"/>
+		<mesh name="bowl060" file="bowl_decomposed/bowl060.obj"/>
+		<mesh name="bowl061" file="bowl_decomposed/bowl061.obj"/>
+		<mesh name="bowl062" file="bowl_decomposed/bowl062.obj"/>
+		<mesh name="bowl063" file="bowl_decomposed/bowl063.obj"/>
+	</asset>
+	<worldbody>
+		<body>
+			<geom name="bowl000_geom" type="mesh" mesh="bowl000" rgba="1 1 1 1"/>
+			<geom name="bowl001_geom" type="mesh" mesh="bowl001" rgba="1 1 1 1"/>
+			<geom name="bowl002_geom" type="mesh" mesh="bowl002" rgba="1 1 1 1"/>
+			<geom name="bowl003_geom" type="mesh" mesh="bowl003" rgba="1 1 1 1"/>
+			<geom name="bowl004_geom" type="mesh" mesh="bowl004" rgba="1 1 1 1"/>
+			<geom name="bowl005_geom" type="mesh" mesh="bowl005" rgba="1 1 1 1"/>
+			<geom name="bowl006_geom" type="mesh" mesh="bowl006" rgba="1 1 1 1"/>
+			<geom name="bowl007_geom" type="mesh" mesh="bowl007" rgba="1 1 1 1"/>
+			<geom name="bowl008_geom" type="mesh" mesh="bowl008" rgba="1 1 1 1"/>
+			<geom name="bowl009_geom" type="mesh" mesh="bowl009" rgba="1 1 1 1"/>
+			<geom name="bowl010_geom" type="mesh" mesh="bowl010" rgba="1 1 1 1"/>
+			<geom name="bowl011_geom" type="mesh" mesh="bowl011" rgba="1 1 1 1"/>
+			<geom name="bowl012_geom" type="mesh" mesh="bowl012" rgba="1 1 1 1"/>
+			<geom name="bowl013_geom" type="mesh" mesh="bowl013" rgba="1 1 1 1"/>
+			<geom name="bowl014_geom" type="mesh" mesh="bowl014" rgba="1 1 1 1"/>
+			<geom name="bowl015_geom" type="mesh" mesh="bowl015" rgba="1 1 1 1"/>
+			<geom name="bowl016_geom" type="mesh" mesh="bowl016" rgba="1 1 1 1"/>
+			<geom name="bowl017_geom" type="mesh" mesh="bowl017" rgba="1 1 1 1"/>
+			<geom name="bowl018_geom" type="mesh" mesh="bowl018" rgba="1 1 1 1"/>
+			<geom name="bowl019_geom" type="mesh" mesh="bowl019" rgba="1 1 1 1"/>
+			<geom name="bowl020_geom" type="mesh" mesh="bowl020" rgba="1 1 1 1"/>
+			<geom name="bowl021_geom" type="mesh" mesh="bowl021" rgba="1 1 1 1"/>
+			<geom name="bowl022_geom" type="mesh" mesh="bowl022" rgba="1 1 1 1"/>
+			<geom name="bowl023_geom" type="mesh" mesh="bowl023" rgba="1 1 1 1"/>
+			<geom name="bowl024_geom" type="mesh" mesh="bowl024" rgba="1 1 1 1"/>
+			<geom name="bowl025_geom" type="mesh" mesh="bowl025" rgba="1 1 1 1"/>
+			<geom name="bowl026_geom" type="mesh" mesh="bowl026" rgba="1 1 1 1"/>
+			<geom name="bowl027_geom" type="mesh" mesh="bowl027" rgba="1 1 1 1"/>
+			<geom name="bowl028_geom" type="mesh" mesh="bowl028" rgba="1 1 1 1"/>
+			<geom name="bowl029_geom" type="mesh" mesh="bowl029" rgba="1 1 1 1"/>
+			<geom name="bowl030_geom" type="mesh" mesh="bowl030" rgba="1 1 1 1"/>
+			<geom name="bowl031_geom" type="mesh" mesh="bowl031" rgba="1 1 1 1"/>
+			<geom name="bowl032_geom" type="mesh" mesh="bowl032" rgba="1 1 1 1"/>
+			<geom name="bowl033_geom" type="mesh" mesh="bowl033" rgba="1 1 1 1"/>
+			<geom name="bowl034_geom" type="mesh" mesh="bowl034" rgba="1 1 1 1"/>
+			<geom name="bowl035_geom" type="mesh" mesh="bowl035" rgba="1 1 1 1"/>
+			<geom name="bowl036_geom" type="mesh" mesh="bowl036" rgba="1 1 1 1"/>
+			<geom name="bowl037_geom" type="mesh" mesh="bowl037" rgba="1 1 1 1"/>
+			<geom name="bowl038_geom" type="mesh" mesh="bowl038" rgba="1 1 1 1"/>
+			<geom name="bowl039_geom" type="mesh" mesh="bowl039" rgba="1 1 1 1"/>
+			<geom name="bowl040_geom" type="mesh" mesh="bowl040" rgba="1 1 1 1"/>
+			<geom name="bowl041_geom" type="mesh" mesh="bowl041" rgba="1 1 1 1"/>
+			<geom name="bowl042_geom" type="mesh" mesh="bowl042" rgba="1 1 1 1"/>
+			<geom name="bowl043_geom" type="mesh" mesh="bowl043" rgba="1 1 1 1"/>
+			<geom name="bowl044_geom" type="mesh" mesh="bowl044" rgba="1 1 1 1"/>
+			<geom name="bowl045_geom" type="mesh" mesh="bowl045" rgba="1 1 1 1"/>
+			<geom name="bowl046_geom" type="mesh" mesh="bowl046" rgba="1 1 1 1"/>
+			<geom name="bowl047_geom" type="mesh" mesh="bowl047" rgba="1 1 1 1"/>
+			<geom name="bowl048_geom" type="mesh" mesh="bowl048" rgba="1 1 1 1"/>
+			<geom name="bowl049_geom" type="mesh" mesh="bowl049" rgba="1 1 1 1"/>
+			<geom name="bowl050_geom" type="mesh" mesh="bowl050" rgba="1 1 1 1"/>
+			<geom name="bowl051_geom" type="mesh" mesh="bowl051" rgba="1 1 1 1"/>
+			<geom name="bowl052_geom" type="mesh" mesh="bowl052" rgba="1 1 1 1"/>
+			<geom name="bowl053_geom" type="mesh" mesh="bowl053" rgba="1 1 1 1"/>
+			<geom name="bowl054_geom" type="mesh" mesh="bowl054" rgba="1 1 1 1"/>
+			<geom name="bowl055_geom" type="mesh" mesh="bowl055" rgba="1 1 1 1"/>
+			<geom name="bowl056_geom" type="mesh" mesh="bowl056" rgba="1 1 1 1"/>
+			<geom name="bowl057_geom" type="mesh" mesh="bowl057" rgba="1 1 1 1"/>
+			<geom name="bowl058_geom" type="mesh" mesh="bowl058" rgba="1 1 1 1"/>
+			<geom name="bowl059_geom" type="mesh" mesh="bowl059" rgba="1 1 1 1"/>
+			<geom name="bowl060_geom" type="mesh" mesh="bowl060" rgba="1 1 1 1"/>
+			<geom name="bowl061_geom" type="mesh" mesh="bowl061" rgba="1 1 1 1"/>
+			<geom name="bowl062_geom" type="mesh" mesh="bowl062" rgba="1 1 1 1"/>
+			<geom name="bowl063_geom" type="mesh" mesh="bowl063" rgba="1 1 1 1"/>
+		</body>
+	</worldbody>
+</mujoco>

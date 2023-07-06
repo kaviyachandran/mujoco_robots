@@ -18,70 +18,6 @@
         <mesh name="l_distal" file="l_distal.stl" />
         <mesh name="r_proximal" file="r_proximal.stl" />
         <mesh name="r_distal" file="r_distal.stl" />
-        <mesh name="cup_v2000" file="cup_decomposed/cup_v2000.obj" scale="0.001 0.001 0.001"/>
-        <mesh name="cup_v2001" file="cup_decomposed/cup_v2001.obj" scale="0.001 0.001 0.001"/>
-        <mesh name="cup_v2002" file="cup_decomposed/cup_v2002.obj" scale="0.001 0.001 0.001"/>
-        <mesh name="cup_v2003" file="cup_decomposed/cup_v2003.obj" scale="0.001 0.001 0.001"/>
-        <mesh name="cup_v2004" file="cup_decomposed/cup_v2004.obj" scale="0.001 0.001 0.001"/>
-        <mesh name="cup_v2005" file="cup_decomposed/cup_v2005.obj" scale="0.001 0.001 0.001"/>
-        <mesh name="cup_v2006" file="cup_decomposed/cup_v2006.obj" scale="0.001 0.001 0.001"/>
-        <mesh name="cup_v2007" file="cup_decomposed/cup_v2007.obj" scale="0.001 0.001 0.001"/>
-        <mesh name="cup_v2008" file="cup_decomposed/cup_v2008.obj" scale="0.001 0.001 0.001"/>
-        <mesh name="cup_v2009" file="cup_decomposed/cup_v2009.obj" scale="0.001 0.001 0.001"/>
-        <mesh name="cup_v2010" file="cup_decomposed/cup_v2010.obj" scale="0.001 0.001 0.001"/>
-        <mesh name="cup_v2011" file="cup_decomposed/cup_v2011.obj" scale="0.001 0.001 0.001"/>
-        <mesh name="cup_v2012" file="cup_decomposed/cup_v2012.obj" scale="0.001 0.001 0.001"/>
-        <mesh name="cup_v2013" file="cup_decomposed/cup_v2013.obj" scale="0.001 0.001 0.001"/>
-        <mesh name="cup_v2014" file="cup_decomposed/cup_v2014.obj" scale="0.001 0.001 0.001"/>
-        <mesh name="cup_v2015" file="cup_decomposed/cup_v2015.obj" scale="0.001 0.001 0.001"/>
-        <mesh name="cup_v2016" file="cup_decomposed/cup_v2016.obj" scale="0.001 0.001 0.001"/>
-        <mesh name="cup_v2017" file="cup_decomposed/cup_v2017.obj" scale="0.001 0.001 0.001"/>
-        <mesh name="cup_v2018" file="cup_decomposed/cup_v2018.obj" scale="0.001 0.001 0.001"/>
-        <mesh name="cup_v2019" file="cup_decomposed/cup_v2019.obj" scale="0.001 0.001 0.001"/>
-        <mesh name="cup_v2020" file="cup_decomposed/cup_v2020.obj" scale="0.001 0.001 0.001"/>
-        <mesh name="cup_v2021" file="cup_decomposed/cup_v2021.obj" scale="0.001 0.001 0.001"/>
-        <mesh name="cup_v2022" file="cup_decomposed/cup_v2022.obj" scale="0.001 0.001 0.001"/>
-        <mesh name="cup_v2023" file="cup_decomposed/cup_v2023.obj" scale="0.001 0.001 0.001"/>
-        <mesh name="cup_v2024" file="cup_decomposed/cup_v2024.obj" scale="0.001 0.001 0.001"/>
-        <mesh name="cup_v2025" file="cup_decomposed/cup_v2025.obj" scale="0.001 0.001 0.001"/>
-        <mesh name="cup_v2026" file="cup_decomposed/cup_v2026.obj" scale="0.001 0.001 0.001"/>
-        <mesh name="cup_v2027" file="cup_decomposed/cup_v2027.obj" scale="0.001 0.001 0.001"/>
-        <mesh name="cup_v2028" file="cup_decomposed/cup_v2028.obj" scale="0.001 0.001 0.001"/>
-        <mesh name="cup_v2029" file="cup_decomposed/cup_v2029.obj" scale="0.001 0.001 0.001"/>
-        <mesh name="cup_v2030" file="cup_decomposed/cup_v2030.obj" scale="0.001 0.001 0.001"/>
-        <mesh name="cup_v2031" file="cup_decomposed/cup_v2031.obj" scale="0.001 0.001 0.001"/>
-        <mesh name="cup_v2032" file="cup_decomposed/cup_v2032.obj" scale="0.001 0.001 0.001"/>
-        <mesh name="cup_v2033" file="cup_decomposed/cup_v2033.obj" scale="0.001 0.001 0.001"/>
-        <mesh name="cup_v2034" file="cup_decomposed/cup_v2034.obj" scale="0.001 0.001 0.001"/>
-        <mesh name="cup_v2035" file="cup_decomposed/cup_v2035.obj" scale="0.001 0.001 0.001"/>
-        <mesh name="cup_v2036" file="cup_decomposed/cup_v2036.obj" scale="0.001 0.001 0.001"/>
-        <mesh name="cup_v2037" file="cup_decomposed/cup_v2037.obj" scale="0.001 0.001 0.001"/>
-        <mesh name="cup_v2038" file="cup_decomposed/cup_v2038.obj" scale="0.001 0.001 0.001"/>
-        <mesh name="cup_v2039" file="cup_decomposed/cup_v2039.obj" scale="0.001 0.001 0.001"/>
-        <mesh name="cup_v2040" file="cup_decomposed/cup_v2040.obj" scale="0.001 0.001 0.001"/>
-        <mesh name="cup_v2041" file="cup_decomposed/cup_v2041.obj" scale="0.001 0.001 0.001"/>
-        <mesh name="cup_v2042" file="cup_decomposed/cup_v2042.obj" scale="0.001 0.001 0.001"/>
-        <mesh name="cup_v2043" file="cup_decomposed/cup_v2043.obj" scale="0.001 0.001 0.001"/>
-        <mesh name="cup_v2044" file="cup_decomposed/cup_v2044.obj" scale="0.001 0.001 0.001"/>
-        <mesh name="cup_v2045" file="cup_decomposed/cup_v2045.obj" scale="0.001 0.001 0.001"/>
-        <mesh name="cup_v2046" file="cup_decomposed/cup_v2046.obj" scale="0.001 0.001 0.001"/>
-        <mesh name="cup_v2047" file="cup_decomposed/cup_v2047.obj" scale="0.001 0.001 0.001"/>
-        <mesh name="cup_v2048" file="cup_decomposed/cup_v2048.obj" scale="0.001 0.001 0.001"/>
-        <mesh name="cup_v2049" file="cup_decomposed/cup_v2049.obj" scale="0.001 0.001 0.001"/>
-        <mesh name="cup_v2050" file="cup_decomposed/cup_v2050.obj" scale="0.001 0.001 0.001"/>
-        <mesh name="cup_v2051" file="cup_decomposed/cup_v2051.obj" scale="0.001 0.001 0.001"/>
-        <mesh name="cup_v2052" file="cup_decomposed/cup_v2052.obj" scale="0.001 0.001 0.001"/>
-        <mesh name="cup_v2053" file="cup_decomposed/cup_v2053.obj" scale="0.001 0.001 0.001"/>
-        <mesh name="cup_v2054" file="cup_decomposed/cup_v2054.obj" scale="0.001 0.001 0.001"/>
-        <mesh name="cup_v2055" file="cup_decomposed/cup_v2055.obj" scale="0.001 0.001 0.001"/>
-        <mesh name="cup_v2056" file="cup_decomposed/cup_v2056.obj" scale="0.001 0.001 0.001"/>
-        <mesh name="cup_v2057" file="cup_decomposed/cup_v2057.obj" scale="0.001 0.001 0.001"/>
-        <mesh name="cup_v2058" file="cup_decomposed/cup_v2058.obj" scale="0.001 0.001 0.001"/>
-        <mesh name="cup_v2059" file="cup_decomposed/cup_v2059.obj" scale="0.001 0.001 0.001"/>
-        <mesh name="cup_v2060" file="cup_decomposed/cup_v2060.obj" scale="0.001 0.001 0.001"/>
-        <mesh name="cup_v2061" file="cup_decomposed/cup_v2061.obj" scale="0.001 0.001 0.001"/>
-        <mesh name="cup_v2062" file="cup_decomposed/cup_v2062.obj" scale="0.001 0.001 0.001"/>
-        <mesh name="cup_v2063" file="cup_decomposed/cup_v2063.obj" scale="0.001 0.001 0.001"/>
     </asset>
     <worldbody>
         <body name="hsrb4s" pos="1.5 2.5 0">
@@ -137,7 +73,7 @@
                     <geom type="mesh" mesh="head_pan" />
                     <body name="head_tilt_link" pos="0.02 0 0">
                         <inertial pos="-0.0585755 -0.00226398 0.125377" quat="0.974727 0.00825867 -0.223204 -0.00429581" mass="2.31102" diaginertia="0.0241287 0.016816 0.00963915" />
-                        <joint name="head_tilt_joint" pos="0 0 0" axis="0 -1 0" limited="true" range="-1.57 0.52" damping="10" />
+                        <joint name="head_tilt_joint" pos="0 0 0" axis="0 -1 0" limited="true" range="-1.57 0.52" damping="1" />
                         <geom type="mesh" mesh="head" />
                         <geom type="mesh" mesh="tablet" />
                         <geom pos="-0.079796 0.022 0.215172" quat="0.5 -0.5 0.5 -0.5" type="mesh" mesh="rgbd" />
@@ -165,20 +101,16 @@
                                 <joint name="wrist_roll_joint" pos="0 0 0" axis="0 0 1" limited="true" range="-1.92 3.67" damping="1" />
                                 <geom type="mesh" mesh="wrist_roll" />
                                 <geom pos="0.012 0 0.1405" quat="0 0 0 1" type="mesh" rgba="0.3333 0.3333 0.3333 1" mesh="palm" />
+                                <body name="sync_create_tray" pos="0.012 0.0 0.4" axisangle="0 1 0 -1.5708">
+                                        <geom type="box" pos="0 0 0" size="0.15 0.15 0.02" rgba="0 0 1 1" />
+                                        <geom type="box" pos="-0.15 0 0.01" size="0.01 0.15 0.02" rgba="0 0 1 1" />
+                                        <geom type="box" pos="0.15 0 0.01" size="0.01 0.15 0.02" rgba="0 0 1 1" />
+                                        <geom type="box" pos="0 0.15 0.01" size="0.15 0.01 0.02" rgba="0 0 1 1" />
+                                        <geom type="box" pos="0 -0.15 0.01" size="0.15 0.01 0.02" rgba="0 0 1 1" />
+                                    </body>
                                 <body name="hand_motor_dummy_link" pos="0.012 0 0.1405" quat="0 0 0 1">
                                     <inertial pos="0 0 0" mass="0.15" diaginertia="0.015 0.015 0.015" />
                                     <joint name="hand_motor_joint" pos="0 0 0" axis="1 0 0" limited="true" range="-0.798 1.24" damping="1"/>
-                                    <body name="cup2" pos="0.0 0.0 0.13" axisangle="0 1 0 1.5708">
-                                        <geom type="cylinder" pos="0 0 -0.076" size="0.03255 0.03" rgba="0 0 1 1"/>
-                                        <geom type="box" pos="0.03 0 0" euler="0 0 0" size="0.0044 0.013420519420888278 0.08" rgba="0 0 1 1" />
-                                        <geom type="box" pos="0.021213 0.021213 0" euler="0 0 0.7853981633974483" size="0.0044 0.013420519420888278 0.08" rgba="0 0 1 1" />
-                                        <geom type="box" pos="0 0.03 0" euler="0 0 1.5707963267948966" size="0.0044 0.013420519420888278 0.08" rgba="0 0 1 1" />
-                                        <geom type="box" pos="-0.021213 0.021213 0" euler="0 0 2.356194490192345" size="0.0044 0.013420519420888278 0.08" rgba="0 0 1 1" />
-                                        <geom type="box" pos="-0.03 0 0" euler="0 0 3.141592653589793" size="0.0044 0.013420519420888278 0.08" rgba="0 0 1 1" />
-                                        <geom type="box" pos="-0.021213 -0.021213 0" euler="0 0 -2.356194490192345" size="0.0044 0.013420519420888278 0.08" rgba="0 0 1 1" />
-                                        <geom type="box" pos="0 -0.03 0" euler="0 0 -1.5707963267948966" size="0.0044 0.013420519420888278 0.08" rgba="0 0 1 1" />
-                                        <geom type="box" pos="0.021213 -0.021213 0" euler="0 0 -0.7853981633974483" size="0.0044 0.013420519420888278 0.08" rgba="0 0 1 1" />
-                                    </body>
                                 </body>
                                 <body name="hand_l_proximal_link" pos="0.02875 0.0245 0.123" quat="0 0 0 1">
                                     <inertial pos="0 0 0" mass="0.15" diaginertia="0.015 0.015 0.015" />

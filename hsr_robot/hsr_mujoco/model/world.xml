@@ -1,6 +1,7 @@
 <mujoco>
-  <option timestep="0.001" integrator="RK4" gravity="0 0 -9.81">
-    <flag sensornoise="disable" energy="enable" contact="enable" />
+  <compiler meshdir="objects"/>
+    <option timestep="0.001" integrator="RK4" solver="CG" gravity="0 0 -9.81">
+    <flag sensornoise="disable" />
   </option>
 
   <asset>
@@ -10,6 +11,14 @@
 
   <worldbody>
     <geom name="floor" size="0 0 .05" type="plane" material="grid" condim="3" />
-    <light diffuse=".5 .5 .5" pos="0 0 5" dir="0 0 -1" />
+    <light diffuse="1 1 1" pos="0 0 4" dir="0 0 -1" />
+    <light diffuse="1 1 1" pos="1 -1 4" dir="0 0 -1" />
   </worldbody>
+
+    <worldbody>
+		<body name="sync_ball" pos="0.7 0.075 0.7">
+			<freejoint/>
+			<geom type="sphere" size="0.01" rgba="1 0 0 1" condim="6" priority="2" friction="3 0.005 0.001"/>
+		</body>
+	</worldbody>
 </mujoco>
