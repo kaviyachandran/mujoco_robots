@@ -82,3 +82,39 @@ head_trajectory_controller:
     head_tilt_joint: {p: 2000, i: 100, d: 50, i_clamp: 10}
   constraints:
     stopped_velocity_tolerance: 0
+
+# real time controllers
+arm_flex_joint_velocity_controller:
+  type: effort_controllers/JointVelocityController
+  joint: arm_flex_joint
+  pid: { p: 800, i: 10000, d: 0 , i_clamp: 500}
+
+arm_lift_joint_velocity_controller:
+  type: effort_controllers/JointVelocityController
+  joint: arm_lift_joint
+  pid: { p: 800, i: 10000, d: 0 , i_clamp: 500 }
+
+arm_roll_joint_velocity_controller:
+  type: effort_controllers/JointVelocityController
+  joint: arm_roll_joint
+  pid: { p: 800, i: 10000, d: 0 , i_clamp: 500 }
+
+head_pan_joint_velocity_controller:
+  type: effort_controllers/JointVelocityController
+  joint: head_pan_joint
+  pid: { p: 800, i: 10000, d: 0 , i_clamp: 500 }
+
+head_tilt_joint_velocity_controller:
+  type: effort_controllers/JointVelocityController
+  joint: head_tilt_joint
+  pid: { p: 800, i: 10000, d: 0 , i_clamp: 500 }
+
+wrist_flex_joint_velocity_controller:
+  type: effort_controllers/JointVelocityController
+  joint: wrist_flex_joint
+  pid: { p: 800, i: 10000, d: 0 , i_clamp: 500 }
+
+wrist_roll_joint_velocity_controller:
+  type: effort_controllers/JointVelocityController
+  joint: wrist_roll_joint
+  pid: { p: 800, i: 10000, d: 0 , i_clamp: 500 }
