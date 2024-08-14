@@ -8,6 +8,7 @@ project(hsr_mujoco)
 ## if COMPONENTS list like find_package(catkin REQUIRED COMPONENTS xyz)
 ## is used, also find other catkin packages
 find_package(catkin REQUIRED COMPONENTS
+  hsr_control
   hsr_description
   mujoco_sim
 )

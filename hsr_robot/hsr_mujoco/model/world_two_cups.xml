@@ -177,11 +177,11 @@
 			<freejoint/> <inertial pos="0.0 0.0 0.0" mass="0.0001" diaginertia="0.000000001 0.000000001 0.000000001" />
 			<geom type="sphere" size="0.005" rgba="1 0 0 1"/>
 		</body>
-		<body name="sync_ball30" pos="2 -0.2 1.1">
+		<!--<body name="sync_ball30" pos="2 -0.2 1.1">
 			<freejoint/> <inertial pos="0.0 0.0 0.0" mass="0.0001" diaginertia="0.000000001 0.000000001 0.000000001" />
 			<geom type="sphere" size="0.005" rgba="1 0 0 1"/>
 		</body>
-		<body name="sync_ball31" pos="2 -0.2 1.11">
+		 <body name="sync_ball31" pos="2 -0.2 1.11">
 			<freejoint/> <inertial pos="0.0 0.0 0.0" mass="0.0001" diaginertia="0.000000001 0.000000001 0.000000001" />
 			<geom type="sphere" size="0.005" rgba="1 0 0 1"/>
 		</body>
@@ -616,7 +616,7 @@
 		<body name="sync_ball139" pos="2 -0.2 2.1900000000000004">
 			<freejoint/> <inertial pos="0.0 0.0 0.0" mass="0.0001" diaginertia="0.000000001 0.000000001 0.000000001" />
 			<geom type="sphere" size="0.005" rgba="1 0 0 1"/>
-		</body>
+		</body> -->
 		
 		
 	</worldbody>
