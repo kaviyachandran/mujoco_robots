@@ -20,7 +20,8 @@
         <mesh name="r_distal" file="r_distal.stl" />
     </asset>
     <worldbody>
-        <body name="hsrb4s" pos="1.5 2.5 0">
+        <camera name="head_cam" mode="fixed" pos="-0.015 -0.001 0.817"/>
+        <body name="hsrb4s"  pos="1.5 2.5 0">
             <geom type="mesh" mesh="base" />
             <geom pos="0.1675 0 0.1844" type="mesh" mesh="laser" />
             <body name="base_roll_link" pos="0 0 0">
