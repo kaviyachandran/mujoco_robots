@@ -20,8 +20,8 @@
         <mesh name="r_distal" file="r_distal.stl" />
     </asset>
     <worldbody>
-        <camera name="head_cam" mode="fixed" pos="-0.015 -0.001 0.817"/>
-        <body name="hsrb4s"  pos="1.5 2.5 0">
+        <!--<body name="hsrb4s"  pos="1.5 2.5 0"> -->
+        <body name="hsrb4s"  pos="-0.5 0 0">
             <geom type="mesh" mesh="base" />
             <geom pos="0.1675 0 0.1844" type="mesh" mesh="laser" />
             <body name="base_roll_link" pos="0 0 0">
@@ -68,11 +68,15 @@
                 <inertial pos="-0.051142 0.003454 -0.2905" quat="0.511154 0.00760492 -0.0140194 0.859341" mass="3.42078" diaginertia="0.105342 0.104252 0.0127461" />
                 <joint name="torso_lift_joint" pos="0 0 0" axis="0 0 1" type="slide" limited="true" range="0 0.345" damping="500" />
                 <geom type="mesh" mesh="torso" />
-                <body name="head_pan_link" pos="0 0 0">
+                <body name="hpl" pos="0 0 0">
                     <inertial pos="0.001724 -0.001969 -0.028886" quat="0.865343 0.459592 0.192259 -0.0547077" mass="0.571903" diaginertia="0.00102408 0.00077623 0.000589392" />
                     <joint name="head_pan_joint" pos="0 0 0" axis="0 0 1" limited="true" range="-3.84 1.75" damping="1" />
                     <geom type="mesh" mesh="head_pan" />
-                    <body name="head_tilt_link" pos="0.02 0 0">
+                    <body name="htl" pos="0.02 0 0">
+                        <body name="head_cam_link" pos="0.0195 0 0.061" quat="-0.53135 -0.36914 0.4845 0.5888">
+                            <camera name="head_cam" mode="fixed" pos="0 0 0" quat="1 0 0 0"/>
+                            <!--<camera name="head_cam" mode="targetbody" pos="0 0 0" quat="1 0 0 0" target="free_cup2"/>-->
+                        </body>
                         <inertial pos="-0.0585755 -0.00226398 0.125377" quat="0.974727 0.00825867 -0.223204 -0.00429581" mass="2.31102" diaginertia="0.0241287 0.016816 0.00963915" />
                         <joint name="head_tilt_joint" pos="0 0 0" axis="0 -1 0" limited="true" range="-1.57 0.52" damping="10" />
                         <geom type="mesh" mesh="head" />
@@ -158,8 +162,8 @@
         <exclude body1="hsrb4s" body2="base_l_passive_wheel_x_frame"/>
         <exclude body1="hsrb4s" body2="base_l_passive_wheel_y_frame"/>
         <exclude body1="hsrb4s" body2="torso_lift_link"/>
-        <exclude body1="hsrb4s" body2="head_pan_link"/>
-        <exclude body1="hsrb4s" body2="head_tilt_link"/>
+        <exclude body1="hsrb4s" body2="hpl"/>
+        <exclude body1="hsrb4s" body2="htl"/>
         <exclude body1="hsrb4s" body2="arm_lift_link"/>
         <exclude body1="hsrb4s" body2="arm_flex_link"/>
         <exclude body1="hsrb4s" body2="arm_roll_link"/>
@@ -177,9 +181,9 @@
         <exclude body1="base_l_passive_wheel_x_frame" body2="base_l_passive_wheel_y_frame"/>
         <exclude body1="base_l_passive_wheel_x_frame" body2="base_l_passive_wheel_z_link"/>
         <exclude body1="base_l_passive_wheel_y_frame" body2="base_l_passive_wheel_z_link"/>
-        <exclude body1="torso_lift_link" body2="head_pan_link"/>
-        <exclude body1="torso_lift_link" body2="head_tilt_link"/>
-        <exclude body1="head_pan_link" body2="head_tilt_link"/>
+        <exclude body1="torso_lift_link" body2="hpl"/>
+        <exclude body1="torso_lift_link" body2="htl"/>
+        <exclude body1="hpl" body2="htl"/>
         <exclude body1="arm_lift_link" body2="arm_flex_link"/>
         <exclude body1="arm_lift_link" body2="arm_roll_link"/>
         <exclude body1="arm_lift_link" body2="wrist_flex_link"/>
